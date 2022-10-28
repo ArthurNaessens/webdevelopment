@@ -1,0 +1,13 @@
+.checklist li {
+    background-image: url("../images/checklist.png");
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+li.checked {
+    background-image: url("../images/checklist-checked.png");
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+li {
+    list-style: none;
+}
