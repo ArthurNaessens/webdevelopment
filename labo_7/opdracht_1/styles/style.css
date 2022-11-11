@@ -1,0 +1,42 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+section > header > h1 {
+    background-image: url("../images/header.jpg");
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 10px 0 70px 10px;
+    margin-bottom: 0;
+}
+nav {
+    background-color: #444444;
+    padding: 7px 3px;
+}
+nav a {
+    font-family: monospace;
+    color: #55fe91;
+    text-decoration: none;
+}
+article {
+    margin-top: 10px;
+    padding: 0 5px 5px 5px;
+    background-color: #eeeeee;
+}
+article header {
+    font-size: 30px;
+    padding: 20px 5px 0 5px;
+}
+article p {
+    font-family: "Berlin Sans FB", sans-serif;
+}
+article header h1 {
+    font-family: sans-serif;
+    color: #444444;
+    text-decoration: underline;
+}
+footer {
+    padding-bottom: 40px;
+    font-family: "Berlin Sans FB", sans-serif;
+}
