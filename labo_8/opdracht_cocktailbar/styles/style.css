@@ -1,0 +1,64 @@
+body {
+    width: 95%;
+    margin: auto;
+    font: 1.2em Verdana Helvetica Arial sans-serif;
+}
+.header {
+    text-align: center;
+}
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+h2 {
+    color: #007e7e;
+    font-size: 130%;
+}
+.specials h1 {
+    color: #050404;
+}
+.specials h2 {
+    color: #bd586a;
+}
+a {
+    color: black;
+}
+.specials a:hover {
+    color: saddlebrown;
+}
+.specials {
+    padding: 35px 10px 10px 10px;
+    width: 30%;
+    float: right;
+    text-align: center;
+    border: 2px solid #a7cece;
+    background-image: url("../images/cocktail.gif");
+    /* blijf de afbeelding herhalen over de x as */
+    background-repeat: repeat-x;
+    box-sizing: border-box;
+}
+article {
+    display: inline-block;
+}
+.main {
+    width: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#guarantee {
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-color: #a7cece;
+    background-size: 70px;
+    padding: 20px 20px 20px 70px;
+    margin: 30px;
+    color: #444444;
+    border: 1px dotted white;
+    line-height: 1.5em;
+}
+footer {
+    font-size: 50%;
+    text-align: center;
+    clear: both;
+    margin-bottom: 20px;
+}
