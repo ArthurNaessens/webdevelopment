@@ -1,0 +1,21 @@
+article {
+    border: 1px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+article p, h2 {
+    font-size: 1.25em;
+    font-family: sans-serif;
+    margin: 10px;
+}
+article h2 {
+    margin-bottom: 20px;
+}
+article:nth-child(odd) img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+article:nth-child(even) img {
+    float: right;
+    margin: 0 10px 10px 0;
+}
