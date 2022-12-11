@@ -1,0 +1,15 @@
+.col-md-2, .col-md-3, .col-md-4 {
+    background-color: #dbdfe5;
+}
+.col-md-4:nth-child(even), .col-md-7, .col-md-8 {
+    background-color: #abb1b8;
+}
+.col-md-2, .col-md-3, .col-md-4, .col-md-7, .col-md-8 {
+    text-align: center;
+    padding: 70px;
+    margin: 10px 10px 0 0;
+}
+.row {
+    /* avoid elements going to the next row */
+    flex-wrap: nowrap;
+}
